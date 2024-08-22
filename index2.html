@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="AriHT">
+    <meta name="keywords" lang="es" content="html">
+    <meta name="description" lang="es" content="etiquetas basicas de html">
+    <title>Pagina de Contacto</title>
+</head>
+<body>
+    <main>
+        <img src="./media/Captura de pantalla 2024-08-22 154241.png" alt="Logocafe">
+        <br>
+        <img src="./media/banner.jpg" alt="bannercafe" height="300" width="800">
+        <h1 id="contacto">Contacto</h1>
+        <nav>
+            <ul>
+                <li id="inicio"><a href="./index.html" target="_blank">Inicio</a></li>
+                <li id="Nosotros"> <a href="#Nosotros">Nosotros</a></li>
+                <li id="Cursos"> <a href="#Cursos">Cursos</a></li>
+                <li id="Blog"> <a href="#Blog">blog</a></li>
+                <li id="contacto"> <a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <!--Se mantuvo su banner y su header exactamente igual con su menu de nav, el inicio conecta con la pagina principal-->
+        <div>
+            <img src="./media/contacto.jpg" alt="contacto"height="300" width="800" >
+            <div class="formulario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required minlength="3" maxlength="50" placeholder="Tu nombre">
+            </div> <br>
+            <div class="formulario">
+                <label for="Email">Correo Electronico:</label>
+                <input type="email" id="email" name="email" required placeholder="tu correo Electronico" >
+            </div>
+            <br>
+            <div class="formulario">
+                <label for="Mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" required minlength="10" maxlength="500" placeholder="Escribe aqui"></textarea>
+            </div> <br>
+            <input type="submit" value="Enviar">
+        </div>
+    </main>
+    <!--Se creo en cada contenedor de formulario su respectivo campo: nombre, correo electronico, y el mensaje para tener un contacto con el cliente si asi lo desea, con la imagen solicitada
+    dividido con labels, inputs y text areas, adjuntando un boton de enviar para contactar al cliente-->
+    <footer>
+        <hr>
+        <img src="./media/Captura de pantalla 2024-08-22 154241.png" alt="Logocafe">
+        <p>&copy; Blog del cafe Todos los derechos reservados</p>
+        <nav>
+            <ul>
+                <li> <a href="#Inicio">Inicio</a></li>
+                <li> <a href="#Nosotros">Nosotros</a></li>
+                <li> <a href="#Anuncios">Anuncio</a></li>
+                <li> <a href="#Blog">blog</a></li>
+                <li> <a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </footer>
+      <!--en el footer esta igual que el de pagina principal se diferencia con hr para dar a entender la division, su logo adjunto, coloque su respectivo navbar, y su copyright-->
+</body>
+</html>
